@@ -1,0 +1,38 @@
+@media screen and (max-width: 575px) {
+/* Valori Comuni */
+img {
+    height: 20vw;
+    min-height:75px ;
+}
+.row {
+    width: 100%;
+    margin: 0;
+}
+
+/* BLOCCO LEZIONI */
+#lezioni{
+    background-color: rgb(242,242, 205);
+}
+#lezioni .row>.left,
+#lezioni .row>.right {
+    width: 100%;
+}
+ 
+/* BLOCCO STEPS */
+ #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+    width: 100%;
+}
+  
+/* BLOCCO PERCHE */
+#why{
+    background-color: rgb(242,242, 205);
+} 
+#why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 15px
+}
+  
+}
